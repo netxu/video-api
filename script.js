@@ -31,7 +31,6 @@ document.addEventListener('DOMContentLoaded', function() {
       var fileURL = URL.createObjectURL(file);
       videoPlayer.src = fileURL;
       videoPlayer.load();
-      videoPlayer.play();
     } else {
       alert('Por favor, selecciona un archivo de video válido.');
       fileInput.value = '';
