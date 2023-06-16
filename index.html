@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Reproductor de Video</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div id="videoContainer">
+    <div id="fileInputContainer">
+      <input type="file" id="fileInput" accept="video/*">
+    </div>
+    <video id="videoPlayer">
+      Tu navegador no admite la reproducción de video.
+    </video>
+    <div id="controls">
+      <button id="playButton">Iniciar</button>
+      <button id="pauseButton">Parar</button>
+      <button id="volumeUpButton">Subir Volumen</button>
+      <button id="volumeDownButton">Bajar Volumen</button>
+      <div id="timeDisplay"></div>
+    </div>
+    <div id="loadingMessage">Cargando video...</div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
